@@ -1,0 +1,5 @@
+set(IoTSPE_VERSION x.y.z)
+@PACKAGE_INIT@
+include("${PACKAGE_PREFIX_DIR}/lib/IoTSPE/cmake/IoTSPETargets.cmake")
+
+check_required_components(IoTSPE)
